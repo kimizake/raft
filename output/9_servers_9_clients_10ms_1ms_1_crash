@@ -1,0 +1,383 @@
+mix compile
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+server 1 Client 1 at 169.254.234.24
+server 2 Client 2 at 169.254.234.24
+server 3 Client 3 at 169.254.234.24
+server 4 Client 4 at 169.254.234.24
+server 5 Client 5 at 169.254.234.24
+server 6 Client 6 at 169.254.234.24
+server 7 Client 7 at 169.254.234.24
+server 8 Client 8 at 169.254.234.24
+time = 200      db updates done = []
+time = 200 client requests seen = []
+time = 200           total seen = 0 max lag = 0
+
+server 9 Client 9 at 169.254.234.24
+monitor: Client 3 going to sleep, sent = 1
+time = 400      db updates done = [{5, 1}]
+time = 400 client requests seen = [{5, 1}]
+time = 400           total seen = 1 max lag = 0
+
+time = 600      db updates done = [{1, 2}, {2, 2}, {3, 2}, {5, 2}]
+time = 600 client requests seen = [{5, 2}]
+time = 600           total seen = 2 max lag = 0
+
+monitor: Client 2 going to sleep, sent = 1
+time = 800      db updates done = [{1, 3}, {2, 3}, {3, 3}, {5, 3}]
+time = 800 client requests seen = [{1, 2}, {5, 2}]
+time = 800           total seen = 4 max lag = 1
+
+time = 1000      db updates done = [{1, 5}, {2, 3}, {3, 3}, {5, 3}]
+time = 1000 client requests seen = [{1, 3}, {5, 2}]
+time = 1000           total seen = 5 max lag = 2
+
+Leader 1 going to sleep for 3 second
+time = 1200      db updates done = [{1, 5}, {2, 3}, {3, 3}, {5, 3}]
+time = 1200 client requests seen = [{1, 3}, {5, 2}]
+time = 1200           total seen = 5 max lag = 2
+
+time = 1400      db updates done = [{1, 5}, {2, 3}, {3, 3}, {5, 3}]
+time = 1400 client requests seen = [{1, 3}, {5, 2}]
+time = 1400           total seen = 5 max lag = 2
+
+time = 1600      db updates done = [{1, 5}, {2, 3}, {3, 3}, {5, 3}]
+time = 1600 client requests seen = [{1, 3}, {5, 2}]
+time = 1600           total seen = 5 max lag = 2
+
+time = 1800      db updates done = [{1, 5}, {2, 3}, {3, 3}, {5, 3}]
+time = 1800 client requests seen = [{1, 3}, {5, 2}]
+time = 1800           total seen = 5 max lag = 2
+
+time = 2000      db updates done = [{1, 5}, {2, 3}, {3, 3}, {5, 3}]
+time = 2000 client requests seen = [{1, 3}, {5, 2}]
+time = 2000           total seen = 5 max lag = 2
+
+monitor:  ** error db 2.3 [346,57,15] = log 3/5 [674,72,19]
+monitor:  ** error db 5.3 [346,57,15] = log 3/5 [674,72,19]
+monitor: Client 6 going to sleep, sent = 1
+monitor:  ** error db 2.4 [871,87,85] = log 4/5 [849,62,6]
+monitor:  ** error db 5.4 [871,87,85] = log 4/5 [849,62,6]
+time = 2200      db updates done = [{1, 5}, {2, 6}, {3, 3}, {5, 6}]
+time = 2200 client requests seen = [{1, 3}, {5, 5}]
+time = 2200           total seen = 8 max lag = 5
+
+time = 2400      db updates done = [{1, 5}, {2, 6}, {3, 3}, {5, 6}]
+time = 2400 client requests seen = [{1, 3}, {5, 5}]
+time = 2400           total seen = 8 max lag = 5
+
+time = 2600      db updates done = [{1, 5}, {2, 6}, {3, 3}, {5, 6}]
+time = 2600 client requests seen = [{1, 3}, {5, 5}]
+time = 2600           total seen = 8 max lag = 5
+
+time = 2800      db updates done = [{1, 5}, {2, 6}, {3, 3}, {5, 6}]
+time = 2800 client requests seen = [{1, 3}, {5, 5}]
+time = 2800           total seen = 8 max lag = 5
+
+monitor: Client 8 going to sleep, sent = 1
+time = 3000      db updates done = [{1, 5}, {2, 7}, {3, 3}, {5, 7}]
+time = 3000 client requests seen = [{1, 3}, {2, 1}, {5, 5}]
+time = 3000           total seen = 9 max lag = 6
+
+
+16:11:51.252 [error] Process #PID<0.137.0> on node :"client5_40_mikiivanovic@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.11.2) :io.put_chars(:standard_io, :unicode, ["monitor: Client 5 going to sleep, sent = 1", 10])
+    (raft1 0.1.0) lib/monitor.ex:27: Monitor.halt/1
+    (raft1 0.1.0) lib/client.ex:53: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+
+16:11:52.877 [error] Process #PID<0.138.0> on node :"server1_40_mikiivanovic@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.11.2) :io.put_chars(:standard_io, :unicode, ["Leader 1 waking up", 10])
+    (raft1 0.1.0) lib/leader.ex:96: Leader.next/2
+
+16:11:52.920 [error] Process #PID<0.137.0> on node :"client4_40_mikiivanovic@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.11.2) :io.put_chars(:standard_io, :unicode, ["monitor: Client 4 going to sleep, sent = 1", 10])
+    (raft1 0.1.0) lib/monitor.ex:27: Monitor.halt/1
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+
+16:11:52.952 [error] Process #PID<0.137.0> on node :"client7_40_mikiivanovic@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.11.2) :io.put_chars(:standard_io, :unicode, ["monitor: Client 7 going to sleep, sent = 1", 10])
+    (raft1 0.1.0) lib/monitor.ex:27: Monitor.halt/1
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+
+16:11:52.968 [error] Process #PID<0.137.0> on node :"client1_40_mikiivanovic@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.11.2) :io.put_chars(:standard_io, :unicode, ["monitor: Client 1 going to sleep, sent = 1", 10])
+    (raft1 0.1.0) lib/monitor.ex:27: Monitor.halt/1
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+
+16:11:53.152 [error] Process #PID<0.137.0> on node :"client9_40_mikiivanovic@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.11.2) :io.put_chars(:standard_io, :unicode, ["monitor: Client 9 going to sleep, sent = 1", 10])
+    (raft1 0.1.0) lib/monitor.ex:27: Monitor.halt/1
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+server 1 Client 1 at 169.254.234.24
+server 2 Client 2 at 169.254.234.24
+server 4 Client 4 at 169.254.234.24
+server 5 Client 5 at 169.254.234.24
+server 3 Client 3 at 169.254.234.24
+server 7 Client 7 at 169.254.234.24
+server 6 Client 6 at 169.254.234.24
+monitor: Client 7 going to sleep, sent = 1
+server 9 Client 9 at 169.254.234.24
+server 8 Client 8 at 169.254.234.24
+time = 200      db updates done = [{1, 14}, {2, 14}, {3, 14}, {4, 14}, {5, 14}, {6, 14}, {7, 14}, {8, 14}, {9, 14}]
+time = 200 client requests seen = [{2, 14}]
+time = 200           total seen = 14 max lag = 0
+
+time = 400      db updates done = [{1, 28}, {2, 28}, {3, 28}, {4, 28}, {5, 28}, {6, 28}, {7, 28}, {8, 28}, {9, 28}]
+time = 400 client requests seen = [{2, 28}]
+time = 400           total seen = 28 max lag = 0
+
+monitor: Client 2 going to sleep, sent = 1
+monitor: Client 9 going to sleep, sent = 1
+time = 600      db updates done = [{1, 30}, {2, 30}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 600 client requests seen = [{2, 29}, {8, 1}]
+time = 600           total seen = 30 max lag = 0
+
+Exiting server5_40_mikiivanovic@127.0.0.1
+time = 800      db updates done = [{1, 30}, {2, 30}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 800 client requests seen = [{2, 29}, {8, 1}]
+time = 800           total seen = 30 max lag = 0
+
+Exiting client1_40_mikiivanovic@127.0.0.1
+Exiting client5_40_mikiivanovic@127.0.0.1
+Exiting server3_40_mikiivanovic@127.0.0.1
+Exiting server6_40_mikiivanovic@127.0.0.1
+Exiting server2_40_mikiivanovic@127.0.0.1
+time = 1000      db updates done = [{1, 30}, {2, 30}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 1000 client requests seen = [{2, 29}, {8, 1}]
+time = 1000           total seen = 30 max lag = 0
+
+Exiting server8_40_mikiivanovic@127.0.0.1
+monitor: Client 3 going to sleep, sent = 1
+Exiting server1_40_mikiivanovic@127.0.0.1
+time = 1200      db updates done = [{1, 30}, {2, 32}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 1200 client requests seen = [{2, 31}, {8, 1}]
+time = 1200           total seen = 32 max lag = 2
+
+time = 1400      db updates done = [{1, 30}, {2, 32}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 1400 client requests seen = [{2, 31}, {8, 1}]
+time = 1400           total seen = 32 max lag = 2
+
+monitor: Client 5 going to sleep, sent = 1
+time = 1600      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 1600 client requests seen = [{2, 35}, {8, 1}]
+time = 1600           total seen = 36 max lag = 6
+
+Exiting server9_40_mikiivanovic@127.0.0.1
+time = 1800      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 1800 client requests seen = [{2, 35}, {8, 1}]
+time = 1800           total seen = 36 max lag = 6
+
+Follower 1 going to sleep for 3 second
+Exiting client4_40_mikiivanovic@127.0.0.1
+Exiting server7_40_mikiivanovic@127.0.0.1
+time = 2000      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 2000 client requests seen = [{2, 35}, {8, 1}]
+time = 2000           total seen = 36 max lag = 6
+
+time = 2200      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 2200 client requests seen = [{2, 35}, {8, 1}]
+time = 2200           total seen = 36 max lag = 6
+
+Exiting server4_40_mikiivanovic@127.0.0.1
+time = 2400      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 2400 client requests seen = [{2, 35}, {8, 1}]
+time = 2400           total seen = 36 max lag = 6
+
+time = 2600      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 2600 client requests seen = [{2, 35}, {8, 1}]
+time = 2600           total seen = 36 max lag = 6
+
+time = 2800      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 2800 client requests seen = [{2, 35}, {8, 1}]
+time = 2800           total seen = 36 max lag = 6
+
+time = 3000      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 3000 client requests seen = [{2, 35}, {8, 1}]
+time = 3000           total seen = 36 max lag = 6
+
+time = 3200      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 3200 client requests seen = [{2, 35}, {8, 1}]
+time = 3200           total seen = 36 max lag = 6
+
+time = 3400      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 3400 client requests seen = [{2, 35}, {8, 1}]
+time = 3400           total seen = 36 max lag = 6
+
+time = 3600      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 3600 client requests seen = [{2, 35}, {8, 1}]
+time = 3600           total seen = 36 max lag = 6
+
+time = 3800      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 3800 client requests seen = [{2, 35}, {8, 1}]
+time = 3800           total seen = 36 max lag = 6
+
+{removed_failing_handler,default}
+time = 4000      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 4000 client requests seen = [{2, 35}, {8, 1}]
+time = 4000           total seen = 36 max lag = 6
+
+time = 4200      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 4200 client requests seen = [{2, 35}, {8, 1}]
+time = 4200           total seen = 36 max lag = 6
+
+monitor: Client 6 going to sleep, sent = 1
+time = 4400      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 4400 client requests seen = [{2, 35}, {8, 1}]
+time = 4400           total seen = 36 max lag = 6
+
+monitor: Client 8 going to sleep, sent = 1
+time = 4600      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 4600 client requests seen = [{2, 35}, {8, 1}]
+time = 4600           total seen = 36 max lag = 6
+
+
+16:12:00.929 [error] Process #PID<16259.137.0> on node :"client6_40_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+
+16:12:00.953 [error] Process #PID<16260.137.0> on node :"client8_40_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+time = 4800      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 4800 client requests seen = [{2, 35}, {8, 1}]
+time = 4800           total seen = 36 max lag = 6
+
+time = 5000      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 5000 client requests seen = [{2, 35}, {8, 1}]
+time = 5000           total seen = 36 max lag = 6
+
+time = 5200      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 5200 client requests seen = [{2, 35}, {8, 1}]
+time = 5200           total seen = 36 max lag = 6
+
+time = 5400      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 5400 client requests seen = [{2, 35}, {8, 1}]
+time = 5400           total seen = 36 max lag = 6
+
+time = 5600      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 5600 client requests seen = [{2, 35}, {8, 1}]
+time = 5600           total seen = 36 max lag = 6
+
+time = 5800      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 5800 client requests seen = [{2, 35}, {8, 1}]
+time = 5800           total seen = 36 max lag = 6
+
+time = 6000      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 6000 client requests seen = [{2, 35}, {8, 1}]
+time = 6000           total seen = 36 max lag = 6
+
+time = 6200      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 6200 client requests seen = [{2, 35}, {8, 1}]
+time = 6200           total seen = 36 max lag = 6
+
+time = 6400      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 6400 client requests seen = [{2, 35}, {8, 1}]
+time = 6400           total seen = 36 max lag = 6
+
+time = 6600      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 6600 client requests seen = [{2, 35}, {8, 1}]
+time = 6600           total seen = 36 max lag = 6
+
+time = 6800      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 6800 client requests seen = [{2, 35}, {8, 1}]
+time = 6800           total seen = 36 max lag = 6
+
+time = 7000      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 7000 client requests seen = [{2, 35}, {8, 1}]
+time = 7000           total seen = 36 max lag = 6
+
+time = 7200      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 7200 client requests seen = [{2, 35}, {8, 1}]
+time = 7200           total seen = 36 max lag = 6
+
+time = 7400      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 7400 client requests seen = [{2, 35}, {8, 1}]
+time = 7400           total seen = 36 max lag = 6
+
+time = 7600      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 7600 client requests seen = [{2, 35}, {8, 1}]
+time = 7600           total seen = 36 max lag = 6
+
+time = 7800      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 7800 client requests seen = [{2, 35}, {8, 1}]
+time = 7800           total seen = 36 max lag = 6
+
+time = 8000      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 8000 client requests seen = [{2, 35}, {8, 1}]
+time = 8000           total seen = 36 max lag = 6
+
+time = 8200      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 8200 client requests seen = [{2, 35}, {8, 1}]
+time = 8200           total seen = 36 max lag = 6
+
+time = 8400      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 8400 client requests seen = [{2, 35}, {8, 1}]
+time = 8400           total seen = 36 max lag = 6
+
+time = 8600      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 8600 client requests seen = [{2, 35}, {8, 1}]
+time = 8600           total seen = 36 max lag = 6
+
+time = 8800      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 8800 client requests seen = [{2, 35}, {8, 1}]
+time = 8800           total seen = 36 max lag = 6
+
+Exiting raft_40_mikiivanovic@127.0.0.1
+time = 9000      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 9000 client requests seen = [{2, 35}, {8, 1}]
+time = 9000           total seen = 36 max lag = 6
+
+time = 9200      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 9200 client requests seen = [{2, 35}, {8, 1}]
+time = 9200           total seen = 36 max lag = 6
+
+time = 9400      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 9400 client requests seen = [{2, 35}, {8, 1}]
+time = 9400           total seen = 36 max lag = 6
+
+time = 9600      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 9600 client requests seen = [{2, 35}, {8, 1}]
+time = 9600           total seen = 36 max lag = 6
+
+time = 9800      db updates done = [{1, 30}, {2, 36}, {3, 30}, {4, 30}, {5, 30}, {6, 30}, {7, 30}, {8, 30}, {9, 30}]
+time = 9800 client requests seen = [{2, 35}, {8, 1}]
+time = 9800           total seen = 36 max lag = 6
+

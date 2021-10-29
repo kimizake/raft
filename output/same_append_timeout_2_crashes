@@ -1,0 +1,478 @@
+mix compile
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+server 1 Client 1 at 169.254.234.24
+server 2 Client 2 at 169.254.234.24
+server 3 Client 3 at 169.254.234.24
+server 4 Client 4 at 169.254.234.24
+server 5 Client 5 at 169.254.234.24
+server 6 Client 6 at 169.254.234.24
+server 7 Client 7 at 169.254.234.24
+server 8 Client 8 at 169.254.234.24
+server 9 Client 9 at 169.254.234.24
+time = 200      db updates done = []
+time = 200 client requests seen = []
+time = 200           total seen = 0 max lag = 0
+
+time = 400      db updates done = []
+time = 400 client requests seen = []
+time = 400           total seen = 0 max lag = 0
+
+time = 600      db updates done = []
+time = 600 client requests seen = []
+time = 600           total seen = 0 max lag = 0
+
+monitor: Client 8 going to sleep, sent = 1
+monitor: Client 7 going to sleep, sent = 1
+monitor: Client 9 going to sleep, sent = 1
+time = 800      db updates done = [{1, 20}, {2, 20}, {3, 20}, {4, 19}, {5, 20}, {6, 20}, {7, 20}, {8, 20}, {9, 19}]
+time = 800 client requests seen = [{4, 20}]
+time = 800           total seen = 20 max lag = 1
+
+time = 1000      db updates done = [{1, 105}, {2, 105}, {3, 105}, {4, 105}, {5, 105}, {6, 105}, {7, 105}, {8, 105}, {9, 105}]
+time = 1000 client requests seen = [{4, 106}]
+time = 1000           total seen = 106 max lag = 1
+
+time = 1200      db updates done = [{1, 190}, {2, 190}, {3, 190}, {4, 189}, {5, 190}, {6, 190}, {7, 190}, {8, 189}, {9, 189}]
+time = 1200 client requests seen = [{4, 190}]
+time = 1200           total seen = 190 max lag = 1
+
+time = 1400      db updates done = [{1, 276}, {2, 276}, {3, 276}, {4, 276}, {5, 276}, {6, 276}, {7, 276}, {8, 276}, {9, 276}]
+time = 1400 client requests seen = [{4, 276}]
+time = 1400           total seen = 276 max lag = 0
+
+monitor: Client 3 going to sleep, sent = 1
+Follower 1 going to sleep for 1 second
+time = 1600      db updates done = [{1, 335}, {2, 335}, {3, 335}, {4, 336}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 1600 client requests seen = [{4, 338}]
+time = 1600           total seen = 338 max lag = 3
+
+time = 1800      db updates done = [{1, 335}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 1800 client requests seen = [{4, 338}]
+time = 1800           total seen = 338 max lag = 3
+
+time = 2000      db updates done = [{1, 335}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 2000 client requests seen = [{4, 338}]
+time = 2000           total seen = 338 max lag = 3
+
+time = 2200      db updates done = [{1, 335}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 2200 client requests seen = [{4, 338}]
+time = 2200           total seen = 338 max lag = 3
+
+time = 2400      db updates done = [{1, 335}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 2400 client requests seen = [{4, 338}]
+time = 2400           total seen = 338 max lag = 3
+
+Follower 1 waking up
+time = 2600      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 2600 client requests seen = [{4, 338}]
+time = 2600           total seen = 338 max lag = 3
+
+Follower 3 going to sleep for 1 second
+time = 2800      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 2800 client requests seen = [{4, 338}]
+time = 2800           total seen = 338 max lag = 3
+
+time = 3000      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 3000 client requests seen = [{4, 338}]
+time = 3000           total seen = 338 max lag = 3
+
+time = 3200      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 3200 client requests seen = [{4, 338}]
+time = 3200           total seen = 338 max lag = 3
+
+time = 3400      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 3400 client requests seen = [{4, 338}]
+time = 3400           total seen = 338 max lag = 3
+
+time = 3600      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 3600 client requests seen = [{4, 338}]
+time = 3600           total seen = 338 max lag = 3
+
+Follower 3 waking up
+time = 3800      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 3800 client requests seen = [{4, 338}]
+time = 3800           total seen = 338 max lag = 3
+
+time = 4000      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 4000 client requests seen = [{4, 338}]
+time = 4000           total seen = 338 max lag = 3
+
+time = 4200      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 4200 client requests seen = [{4, 338}]
+time = 4200           total seen = 338 max lag = 3
+
+time = 4400      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 4400 client requests seen = [{4, 338}]
+time = 4400           total seen = 338 max lag = 3
+
+time = 4600      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 4600 client requests seen = [{4, 338}]
+time = 4600           total seen = 338 max lag = 3
+
+time = 4800      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 4800 client requests seen = [{4, 338}]
+time = 4800           total seen = 338 max lag = 3
+
+monitor: Client 1 going to sleep, sent = 1
+monitor: Client 2 going to sleep, sent = 1
+
+18:27:34.542 [error] Process #PID<16252.137.0> on node :"client1_21_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+
+18:27:34.545 [error] Process #PID<16253.137.0> on node :"client2_21_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+monitor: Client 4 going to sleep, sent = 1
+
+18:27:34.558 [error] Process #PID<16255.137.0> on node :"client4_21_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+monitor: Client 5 going to sleep, sent = 1
+
+18:27:34.565 [error] Process #PID<16256.137.0> on node :"client5_21_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+monitor: Client 6 going to sleep, sent = 1
+
+18:27:34.572 [error] Process #PID<16257.137.0> on node :"client6_21_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+time = 5000      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 5000 client requests seen = [{4, 338}]
+time = 5000           total seen = 338 max lag = 3
+
+time = 5200      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 5200 client requests seen = [{4, 338}]
+time = 5200           total seen = 338 max lag = 3
+
+time = 5400      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 5400 client requests seen = [{4, 338}]
+time = 5400           total seen = 338 max lag = 3
+
+time = 5600      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 5600 client requests seen = [{4, 338}]
+time = 5600           total seen = 338 max lag = 3
+
+time = 5800      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 5800 client requests seen = [{4, 338}]
+time = 5800           total seen = 338 max lag = 3
+
+time = 6000      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 6000 client requests seen = [{4, 338}]
+time = 6000           total seen = 338 max lag = 3
+
+time = 6200      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 6200 client requests seen = [{4, 338}]
+time = 6200           total seen = 338 max lag = 3
+
+time = 6400      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 6400 client requests seen = [{4, 338}]
+time = 6400           total seen = 338 max lag = 3
+
+time = 6600      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 6600 client requests seen = [{4, 338}]
+time = 6600           total seen = 338 max lag = 3
+
+time = 6800      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 6800 client requests seen = [{4, 338}]
+time = 6800           total seen = 338 max lag = 3
+
+time = 7000      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 7000 client requests seen = [{4, 338}]
+time = 7000           total seen = 338 max lag = 3
+
+time = 7200      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 7200 client requests seen = [{4, 338}]
+time = 7200           total seen = 338 max lag = 3
+
+time = 7400      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 7400 client requests seen = [{4, 338}]
+time = 7400           total seen = 338 max lag = 3
+
+time = 7600      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 7600 client requests seen = [{4, 338}]
+time = 7600           total seen = 338 max lag = 3
+
+time = 7800      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 7800 client requests seen = [{4, 338}]
+time = 7800           total seen = 338 max lag = 3
+
+time = 8000      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 8000 client requests seen = [{4, 338}]
+time = 8000           total seen = 338 max lag = 3
+
+time = 8200      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 8200 client requests seen = [{4, 338}]
+time = 8200           total seen = 338 max lag = 3
+
+time = 8400      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 8400 client requests seen = [{4, 338}]
+time = 8400           total seen = 338 max lag = 3
+
+time = 8600      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 8600 client requests seen = [{4, 338}]
+time = 8600           total seen = 338 max lag = 3
+
+time = 8800      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 8800 client requests seen = [{4, 338}]
+time = 8800           total seen = 338 max lag = 3
+
+Exiting server2_21_mikiivanovic@127.0.0.1
+time = 9000      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 9000 client requests seen = [{4, 338}]
+time = 9000           total seen = 338 max lag = 3
+
+Exiting server6_21_mikiivanovic@127.0.0.1
+Exiting server7_21_mikiivanovic@127.0.0.1
+Exiting server5_21_mikiivanovic@127.0.0.1
+time = 9200      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 9200 client requests seen = [{4, 338}]
+time = 9200           total seen = 338 max lag = 3
+
+Exiting server4_21_mikiivanovic@127.0.0.1
+Exiting server9_21_mikiivanovic@127.0.0.1
+time = 9400      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 9400 client requests seen = [{4, 338}]
+time = 9400           total seen = 338 max lag = 3
+
+Exiting server1_21_mikiivanovic@127.0.0.1
+time = 9600      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 9600 client requests seen = [{4, 338}]
+time = 9600           total seen = 338 max lag = 3
+
+Exiting server3_21_mikiivanovic@127.0.0.1
+Exiting server8_21_mikiivanovic@127.0.0.1
+time = 9800      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 9800 client requests seen = [{4, 338}]
+time = 9800           total seen = 338 max lag = 3
+
+Exiting raft_21_mikiivanovic@127.0.0.1
+time = 10000      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 10000 client requests seen = [{4, 338}]
+time = 10000           total seen = 338 max lag = 3
+
+time = 10200      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 10200 client requests seen = [{4, 338}]
+time = 10200           total seen = 338 max lag = 3
+
+time = 10400      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 10400 client requests seen = [{4, 338}]
+time = 10400           total seen = 338 max lag = 3
+
+time = 10600      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 10600 client requests seen = [{4, 338}]
+time = 10600           total seen = 338 max lag = 3
+
+time = 10800      db updates done = [{1, 336}, {2, 335}, {3, 335}, {4, 338}, {5, 335}, {6, 335}, {7, 335}, {8, 335}, {9, 335}]
+time = 10800 client requests seen = [{4, 338}]
+time = 10800           total seen = 338 max lag = 3
+
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+time = 200      db updates done = []
+time = 200 client requests seen = []
+time = 200           total seen = 0 max lag = 0
+
+server 2 Client 2 at 169.254.234.24
+server 3 Client 3 at 169.254.234.24
+
+18:27:49.154 [error] Process #PID<16248.116.0> on node :"server6_21_mikiivanovic@127.0.0.1" raised an exception
+** (UndefinedFunctionError) function Database.start/2 is undefined (module Database is not available)
+    (raft1 0.1.0) Database.start(%{append_entries_timeout: 50, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600, 3 => 2800}, debug_level: 0, election_timeout: 50, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "21_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 6)
+
+18:27:49.163 [error] Process #PID<16366.116.0> on node :"client1_21_mikiivanovic@127.0.0.1" raised an exception
+** (UndefinedFunctionError) function Client.start/3 is undefined (module Client is not available)
+    (raft1 0.1.0) Client.start(%{append_entries_timeout: 50, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600, 3 => 2800}, debug_level: 0, election_timeout: 50, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "21_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 1, [#PID<16148.138.0>, #PID<16244.118.0>, #PID<16245.138.0>, #PID<16246.138.0>, #PID<16247.136.0>, #PID<16248.117.0>, #PID<16249.138.0>, #PID<16250.138.0>, #PID<16301.118.0>])
+server 4 Client 4 at 169.254.234.24
+server 5 Client 5 at 169.254.234.24
+server 6 Client 6 at 169.254.234.24
+server 7 Client 7 at 169.254.234.24
+
+18:27:49.203 [error] Process #PID<0.116.0> on node :"server6_21_mikiivanovic@127.0.0.1" raised an exception
+** (UndefinedFunctionError) function Database.start/2 is undefined (module Database is not available)
+    Database.start(%{append_entries_timeout: 50, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600, 3 => 2800}, debug_level: 0, election_timeout: 50, max_amount: 1000, max_time: 10000, monitorP: #PID<15178.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "21_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 6)
+
+18:27:49.228 [error] Process #PID<0.117.0> on node :"server6_21_mikiivanovic@127.0.0.1" raised an exception
+** (UndefinedFunctionError) function Server.start/3 is undefined (module Server is not available)
+    Server.start(%{append_entries_timeout: 50, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600, 3 => 2800}, debug_level: 0, election_timeout: 50, max_amount: 1000, max_time: 10000, monitorP: #PID<15178.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "21_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 6, #PID<0.116.0>)
+
+18:27:49.230 [error] Process #PID<16248.117.0> on node :"server6_21_mikiivanovic@127.0.0.1" raised an exception
+** (UndefinedFunctionError) function Server.start/3 is undefined (module Server is not available)
+    (raft1 0.1.0) Server.start(%{append_entries_timeout: 50, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600, 3 => 2800}, debug_level: 0, election_timeout: 50, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "21_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 6, #PID<16248.116.0>)
+server 8 Client 8 at 169.254.234.24
+time = 400      db updates done = []
+time = 400 client requests seen = []
+time = 400           total seen = 0 max lag = 0
+
+server 9 Client 9 at 169.254.234.24
+time = 600      db updates done = []
+time = 600 client requests seen = []
+time = 600           total seen = 0 max lag = 0
+
+Raft at 169.254.234.24
+
+18:27:49.558 [error] Process #PID<0.116.0> on node :"client1_21_mikiivanovic@127.0.0.1" raised an exception
+** (UndefinedFunctionError) function Client.start/3 is undefined (module Client is not available)
+    Client.start(%{append_entries_timeout: 50, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600, 3 => 2800}, debug_level: 0, election_timeout: 50, max_amount: 1000, max_time: 10000, monitorP: #PID<15732.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "21_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 1, [#PID<15752.138.0>, #PID<15753.118.0>, #PID<15754.138.0>, #PID<15755.138.0>, #PID<15756.136.0>, #PID<15757.117.0>, #PID<15758.138.0>, #PID<15759.138.0>, #PID<15760.118.0>])
+time = 800      db updates done = []
+time = 800 client requests seen = []
+time = 800           total seen = 0 max lag = 0
+
+Raft at 169.254.234.24
+Raft at 169.254.234.24
+monitor: Client 3 going to sleep, sent = 1
+time = 1000      db updates done = [{1, 1}, {2, 1}, {3, 1}, {4, 1}, {5, 1}]
+time = 1000 client requests seen = [{5, 1}]
+time = 1000           total seen = 1 max lag = 0
+
+monitor: Client 4 going to sleep, sent = 1
+time = 1200      db updates done = [{1, 2}, {2, 2}, {3, 2}, {4, 2}, {5, 2}]
+time = 1200 client requests seen = [{5, 2}]
+time = 1200           total seen = 2 max lag = 0
+
+time = 1400      db updates done = [{1, 2}, {2, 2}, {3, 2}, {4, 2}, {5, 2}]
+time = 1400 client requests seen = [{5, 2}]
+time = 1400           total seen = 2 max lag = 0
+
+time = 1600      db updates done = [{1, 2}, {2, 2}, {3, 2}, {4, 2}, {5, 2}]
+time = 1600 client requests seen = [{5, 2}]
+time = 1600           total seen = 2 max lag = 0
+
+Follower 1 going to sleep for 1 second
+time = 1800      db updates done = [{1, 2}, {2, 2}, {3, 2}, {4, 2}, {5, 2}]
+time = 1800 client requests seen = [{5, 2}]
+time = 1800           total seen = 2 max lag = 0
+
+time = 2000      db updates done = [{1, 2}, {2, 2}, {3, 2}, {4, 2}, {5, 2}]
+time = 2000 client requests seen = [{5, 2}]
+time = 2000           total seen = 2 max lag = 0
+
+time = 2200      db updates done = [{1, 2}, {2, 2}, {3, 2}, {4, 2}, {5, 2}]
+time = 2200 client requests seen = [{2, 1}, {5, 2}]
+time = 2200           total seen = 3 max lag = 1
+
+monitor: Client 7 going to sleep, sent = 1
+time = 2400      db updates done = [{1, 2}, {2, 3}, {3, 2}, {4, 2}, {5, 2}]
+time = 2400 client requests seen = [{2, 1}, {5, 2}]
+time = 2400           total seen = 3 max lag = 1
+
+time = 2600      db updates done = [{1, 2}, {2, 3}, {3, 2}, {4, 2}, {5, 2}]
+time = 2600 client requests seen = [{2, 1}, {5, 3}]
+time = 2600           total seen = 4 max lag = 2
+
+monitor:  ** error db 5.2 [342,24,68] = log 2/3 [244,48,6]
+monitor: Client 6 going to sleep, sent = 1
+Follower 1 waking up
+time = 2800      db updates done = [{1, 3}, {2, 3}, {3, 2}, {4, 2}, {5, 3}]
+time = 2800 client requests seen = [{2, 1}, {5, 3}]
+time = 2800           total seen = 4 max lag = 2
+
+Follower 3 going to sleep for 1 second
+time = 3000      db updates done = [{1, 3}, {2, 3}, {3, 2}, {4, 2}, {5, 3}]
+time = 3000 client requests seen = [{2, 1}, {5, 3}]
+time = 3000           total seen = 4 max lag = 2
+
+time = 3200      db updates done = [{1, 3}, {2, 3}, {3, 2}, {4, 2}, {5, 3}]
+time = 3200 client requests seen = [{2, 1}, {5, 3}]
+time = 3200           total seen = 4 max lag = 2
+
+time = 3400      db updates done = [{1, 3}, {2, 3}, {3, 2}, {4, 2}, {5, 3}]
+time = 3400 client requests seen = [{2, 1}, {5, 3}]
+time = 3400           total seen = 4 max lag = 2
+
+time = 3600      db updates done = [{1, 3}, {2, 3}, {3, 2}, {4, 2}, {5, 3}]
+time = 3600 client requests seen = [{2, 1}, {5, 3}]
+time = 3600           total seen = 4 max lag = 2
+
+
+18:27:52.931 [error] Process #PID<0.138.0> on node :"server3_21_mikiivanovic@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.11.2) :io.put_chars(:standard_io, :unicode, ["Follower 3 waking up", 10])
+    (raft1 0.1.0) lib/follower.ex:66: Follower.next/2
+
+18:27:53.223 [error] Process #PID<0.137.0> on node :"client8_21_mikiivanovic@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.11.2) :io.put_chars(:standard_io, :unicode, ["monitor: Client 8 going to sleep, sent = 1", 10])
+    (raft1 0.1.0) lib/monitor.ex:27: Monitor.halt/1
+    (raft1 0.1.0) lib/client.ex:53: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+
+18:27:54.092 [error] Process #PID<0.137.0> on node :"client5_21_mikiivanovic@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.11.2) :io.put_chars(:standard_io, :unicode, ["monitor: Client 5 going to sleep, sent = 1", 10])
+    (raft1 0.1.0) lib/monitor.ex:27: Monitor.halt/1
+    (raft1 0.1.0) lib/client.ex:53: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+
+18:27:54.166 [error] Process #PID<0.137.0> on node :"client2_21_mikiivanovic@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.11.2) :io.put_chars(:standard_io, :unicode, ["monitor: Client 2 going to sleep, sent = 1", 10])
+    (raft1 0.1.0) lib/monitor.ex:27: Monitor.halt/1
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+
+18:27:54.337 [error] Process #PID<0.136.0> on node :"client9_21_mikiivanovic@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.11.2) :io.put_chars(:standard_io, :unicode, ["monitor: Client 9 going to sleep, sent = 1", 10])
+    (raft1 0.1.0) lib/monitor.ex:27: Monitor.halt/1
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+Exiting client5_21_mikiivanovic@127.0.0.1
+Exiting server1_21_mikiivanovic@127.0.0.1
+Exiting server4_21_mikiivanovic@127.0.0.1
+Exiting server7_21_mikiivanovic@127.0.0.1
+Exiting server8_21_mikiivanovic@127.0.0.1
+Exiting client2_21_mikiivanovic@127.0.0.1
+Exiting client8_21_mikiivanovic@127.0.0.1
+Exiting server3_21_mikiivanovic@127.0.0.1
+Exiting client9_21_mikiivanovic@127.0.0.1
+Exiting server5_21_mikiivanovic@127.0.0.1
+Exiting server2_21_mikiivanovic@127.0.0.1
+Exiting server6_21_mikiivanovic@127.0.0.1
+Exiting client1_21_mikiivanovic@127.0.0.1
+Exiting server9_21_mikiivanovic@127.0.0.1

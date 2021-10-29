@@ -1,0 +1,467 @@
+mix compile
+Compiling 1 file (.ex)
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+server 1 Client 1 at 146.169.180.236
+server 2 Client 2 at 146.169.180.236
+server 3 Client 3 at 146.169.180.236
+server 4 Client 4 at 146.169.180.236
+server 5 Client 5 at 146.169.180.236
+server 6 Client 6 at 146.169.180.236
+server 7 Client 7 at 146.169.180.236
+server 8 Client 8 at 146.169.180.236
+monitor: Client 1 going to sleep, sent = 1
+time = 200      db updates done = []
+time = 200 client requests seen = []
+time = 200           total seen = 0 max lag = 0
+
+server 9 Client 9 at 146.169.180.236
+time = 400      db updates done = [{1, 3}, {2, 3}, {8, 3}]
+time = 400 client requests seen = [{8, 3}]
+time = 400           total seen = 3 max lag = 0
+
+time = 600      db updates done = [{1, 3}, {2, 3}, {8, 3}]
+time = 600 client requests seen = [{8, 3}]
+time = 600           total seen = 3 max lag = 0
+
+monitor: Client 3 going to sleep, sent = 1
+monitor: Client 9 going to sleep, sent = 1
+time = 800      db updates done = [{1, 7}, {2, 7}, {8, 6}]
+time = 800 client requests seen = [{1, 3}, {8, 4}]
+time = 800           total seen = 7 max lag = 1
+
+time = 1000      db updates done = [{1, 7}, {2, 7}, {8, 6}]
+time = 1000 client requests seen = [{1, 3}, {8, 4}]
+time = 1000           total seen = 7 max lag = 1
+
+time = 1200      db updates done = [{1, 7}, {2, 7}, {8, 6}]
+time = 1200 client requests seen = [{1, 3}, {8, 4}]
+time = 1200           total seen = 7 max lag = 1
+
+time = 1400      db updates done = [{1, 7}, {2, 7}, {8, 6}]
+time = 1400 client requests seen = [{1, 3}, {8, 4}]
+time = 1400           total seen = 7 max lag = 1
+
+Server 1 going to sleep for 1 second
+monitor: Client 2 going to sleep, sent = 1
+time = 1600      db updates done = [{1, 7}, {2, 8}, {8, 6}]
+time = 1600 client requests seen = [{1, 3}, {2, 1}, {8, 4}]
+time = 1600           total seen = 8 max lag = 2
+
+time = 1800      db updates done = [{1, 7}, {2, 8}, {8, 6}]
+time = 1800 client requests seen = [{1, 3}, {2, 1}, {8, 4}]
+time = 1800           total seen = 8 max lag = 2
+
+time = 2000      db updates done = [{1, 7}, {2, 8}, {8, 6}]
+time = 2000 client requests seen = [{1, 3}, {2, 1}, {8, 4}]
+time = 2000           total seen = 8 max lag = 2
+
+time = 2200      db updates done = [{1, 7}, {2, 8}, {8, 6}]
+time = 2200 client requests seen = [{1, 3}, {2, 1}, {8, 4}]
+time = 2200           total seen = 8 max lag = 2
+
+time = 2400      db updates done = [{1, 7}, {2, 8}, {8, 6}]
+time = 2400 client requests seen = [{1, 3}, {2, 1}, {8, 4}]
+time = 2400           total seen = 8 max lag = 2
+
+Server 1 waking up
+time = 2600      db updates done = [{1, 8}, {2, 8}, {8, 6}]
+time = 2600 client requests seen = [{1, 3}, {2, 1}, {8, 4}]
+time = 2600           total seen = 8 max lag = 2
+
+monitor: Client 7 going to sleep, sent = 1
+time = 2800      db updates done = [{1, 12}, {2, 12}, {8, 6}]
+time = 2800 client requests seen = [{1, 7}, {2, 1}, {8, 4}]
+time = 2800           total seen = 12 max lag = 6
+
+time = 3000      db updates done = [{1, 12}, {2, 12}, {8, 6}]
+time = 3000 client requests seen = [{1, 7}, {2, 1}, {8, 4}]
+time = 3000           total seen = 12 max lag = 6
+
+time = 3200      db updates done = [{1, 12}, {2, 12}, {8, 6}]
+time = 3200 client requests seen = [{1, 7}, {2, 1}, {8, 4}]
+time = 3200           total seen = 12 max lag = 6
+
+time = 3400      db updates done = [{1, 12}, {2, 12}, {8, 6}]
+time = 3400 client requests seen = [{1, 7}, {2, 1}, {8, 4}]
+time = 3400           total seen = 12 max lag = 6
+
+time = 3600      db updates done = [{1, 12}, {2, 12}, {8, 6}]
+time = 3600 client requests seen = [{1, 7}, {2, 1}, {8, 4}]
+time = 3600           total seen = 12 max lag = 6
+
+monitor: Client 4 going to sleep, sent = 1
+time = 3800      db updates done = [{1, 14}, {2, 14}, {8, 6}]
+time = 3800 client requests seen = [{1, 10}, {2, 1}, {8, 4}]
+time = 3800           total seen = 15 max lag = 9
+
+time = 4000      db updates done = [{1, 14}, {2, 14}, {8, 6}]
+time = 4000 client requests seen = [{1, 10}, {2, 1}, {8, 4}]
+time = 4000           total seen = 15 max lag = 9
+
+time = 4200      db updates done = [{1, 14}, {2, 14}, {8, 6}]
+time = 4200 client requests seen = [{1, 10}, {2, 1}, {8, 4}]
+time = 4200           total seen = 15 max lag = 9
+
+monitor: Client 6 going to sleep, sent = 1
+monitor:  ** error db 8.6 [935,31,47] = log 6/14 [328,79,34]
+monitor:  ** error db 8.7 [200,58,18] = log 7/14 [623,15,19]
+monitor:  ** error db 8.8 [859,90,53] = log 8/14 [354,1,65]
+monitor:  ** error db 8.9 [563,69,18] = log 9/14 [629,26,49]
+monitor:  ** error db 8.10 [20,59,25] = log 10/14 [746,96,18]
+monitor:  ** error db 8.11 [928,3,62] = log 11/14 [468,63,72]
+monitor:  ** error db 8.12 [535,11,67] = log 12/14 [350,67,67]
+monitor:  ** error db 8.13 [589,72,45] = log 13/14 [285,34,62]
+monitor: Client 5 going to sleep, sent = 1
+time = 4400      db updates done = [{1, 17}, {2, 17}, {8, 18}]
+time = 4400 client requests seen = [{1, 10}, {2, 1}, {8, 16}]
+time = 4400           total seen = 27 max lag = 10
+
+time = 4600      db updates done = [{1, 17}, {2, 17}, {8, 18}]
+time = 4600 client requests seen = [{1, 10}, {2, 1}, {8, 16}]
+time = 4600           total seen = 27 max lag = 10
+
+time = 4800      db updates done = [{1, 17}, {2, 17}, {8, 18}]
+time = 4800 client requests seen = [{1, 10}, {2, 1}, {8, 16}]
+time = 4800           total seen = 27 max lag = 10
+
+monitor: Client 5 going to sleep, sent = 3
+monitor: Client 6 going to sleep, sent = 11
+time = 5000      db updates done = [{1, 17}, {2, 17}, {8, 18}]
+time = 5000 client requests seen = [{1, 10}, {2, 1}, {8, 16}]
+time = 5000           total seen = 27 max lag = 10
+
+monitor: Client 8 going to sleep, sent = 1
+time = 5200      db updates done = [{1, 17}, {2, 17}, {8, 18}]
+time = 5200 client requests seen = [{1, 10}, {2, 1}, {8, 16}]
+time = 5200           total seen = 27 max lag = 10
+
+Exiting server7_00_mikiivanovic@127.0.0.1
+Exiting server9_00_mikiivanovic@127.0.0.1
+Exiting server3_00_mikiivanovic@127.0.0.1
+Exiting server8_00_mikiivanovic@127.0.0.1
+Exiting server6_00_mikiivanovic@127.0.0.1
+Exiting server5_00_mikiivanovic@127.0.0.1
+Exiting server1_00_mikiivanovic@127.0.0.1
+Exiting server4_00_mikiivanovic@127.0.0.1
+Exiting server2_00_mikiivanovic@127.0.0.1
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+Raft at 146.169.180.236
+
+15:55:19.127 [warn]  ** Can not start Database::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 1] on :"server1_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.127 [warn]  ** Can not start Server::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 1, #PID<0.138.0>] on :"server1_00_mikiivanovic@127.0.0.1" **
+
+time = 200      db updates done = []
+time = 200 client requests seen = []
+time = 200           total seen = 0 max lag = 0
+
+time = 400      db updates done = []
+time = 400 client requests seen = []
+time = 400           total seen = 0 max lag = 0
+
+
+15:55:19.619 [warn]  ** Can not start Database::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 2] on :"server2_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.621 [warn]  ** Can not start Server::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 2, #PID<0.144.0>] on :"server2_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.623 [warn]  ** Can not start Database::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 3] on :"server3_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.625 [warn]  ** Can not start Server::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 3, #PID<0.150.0>] on :"server3_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.628 [warn]  ** Can not start Database::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 4] on :"server4_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.629 [warn]  ** Can not start Server::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 4, #PID<0.156.0>] on :"server4_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.631 [warn]  ** Can not start Database::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 5] on :"server5_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.635 [warn]  ** Can not start Server::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 5, #PID<0.162.0>] on :"server5_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.636 [warn]  ** Can not start Database::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 6] on :"server6_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.638 [warn]  ** Can not start Server::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 6, #PID<0.168.0>] on :"server6_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.640 [warn]  ** Can not start Database::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 7] on :"server7_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.642 [warn]  ** Can not start Server::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 7, #PID<0.174.0>] on :"server7_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.644 [warn]  ** Can not start Database::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 8] on :"server8_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.646 [warn]  ** Can not start Server::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 8, #PID<0.180.0>] on :"server8_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.648 [warn]  ** Can not start Database::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 9] on :"server9_00_mikiivanovic@127.0.0.1" **
+
+
+15:55:19.652 [warn]  ** Can not start Server::start,[%{append_entries_timeout: 1, client_requests: 1, client_sleep: 5, client_stop: 5000, client_timeout: 500, crash_servers: %{1 => 1600}, debug_level: 0, election_timeout: 10, max_amount: 1000, max_time: 10000, monitorP: #PID<0.133.0>, n_accounts: 100, n_clients: 9, n_servers: 9, node_suffix: "00_mikiivanovic@127.0.0.1", print_after: 200, start_function: :multi_node_start}, 9, #PID<0.186.0>] on :"server9_00_mikiivanovic@127.0.0.1" **
+
+server 1 Client 1 at 146.169.180.236
+time = 600      db updates done = []
+time = 600 client requests seen = []
+time = 600           total seen = 0 max lag = 0
+
+server 2 Client 2 at 146.169.180.236
+server 3 Client 3 at 146.169.180.236
+server 4 Client 4 at 146.169.180.236
+server 5 Client 5 at 146.169.180.236
+server 6 Client 6 at 146.169.180.236
+server 7 Client 7 at 146.169.180.236
+server 8 Client 8 at 146.169.180.236
+server 9 Client 9 at 146.169.180.236
+time = 800      db updates done = []
+time = 800 client requests seen = []
+time = 800           total seen = 0 max lag = 0
+
+time = 1000      db updates done = []
+time = 1000 client requests seen = []
+time = 1000           total seen = 0 max lag = 0
+
+time = 1200      db updates done = []
+time = 1200 client requests seen = []
+time = 1200           total seen = 0 max lag = 0
+
+time = 1400      db updates done = []
+time = 1400 client requests seen = []
+time = 1400           total seen = 0 max lag = 0
+
+time = 1600      db updates done = []
+time = 1600 client requests seen = []
+time = 1600           total seen = 0 max lag = 0
+
+time = 1800      db updates done = []
+time = 1800 client requests seen = []
+time = 1800           total seen = 0 max lag = 0
+
+time = 2000      db updates done = []
+time = 2000 client requests seen = []
+time = 2000           total seen = 0 max lag = 0
+
+time = 2200      db updates done = []
+time = 2200 client requests seen = []
+time = 2200           total seen = 0 max lag = 0
+
+time = 2400      db updates done = []
+time = 2400 client requests seen = []
+time = 2400           total seen = 0 max lag = 0
+
+time = 2600      db updates done = []
+time = 2600 client requests seen = []
+time = 2600           total seen = 0 max lag = 0
+
+time = 2800      db updates done = []
+time = 2800 client requests seen = []
+time = 2800           total seen = 0 max lag = 0
+
+time = 3000      db updates done = []
+time = 3000 client requests seen = []
+time = 3000           total seen = 0 max lag = 0
+
+time = 3200      db updates done = []
+time = 3200 client requests seen = []
+time = 3200           total seen = 0 max lag = 0
+
+time = 3400      db updates done = []
+time = 3400 client requests seen = []
+time = 3400           total seen = 0 max lag = 0
+
+time = 3600      db updates done = []
+time = 3600 client requests seen = []
+time = 3600           total seen = 0 max lag = 0
+
+time = 3800      db updates done = []
+time = 3800 client requests seen = []
+time = 3800           total seen = 0 max lag = 0
+
+time = 4000      db updates done = []
+time = 4000 client requests seen = []
+time = 4000           total seen = 0 max lag = 0
+
+time = 4200      db updates done = []
+time = 4200 client requests seen = []
+time = 4200           total seen = 0 max lag = 0
+
+time = 4400      db updates done = []
+time = 4400 client requests seen = []
+time = 4400           total seen = 0 max lag = 0
+
+time = 4600      db updates done = []
+time = 4600 client requests seen = []
+time = 4600           total seen = 0 max lag = 0
+
+time = 4800      db updates done = []
+time = 4800 client requests seen = []
+time = 4800           total seen = 0 max lag = 0
+
+time = 5000      db updates done = []
+time = 5000 client requests seen = []
+time = 5000           total seen = 0 max lag = 0
+
+time = 5200      db updates done = []
+time = 5200 client requests seen = []
+time = 5200           total seen = 0 max lag = 0
+
+time = 5400      db updates done = []
+time = 5400 client requests seen = []
+time = 5400           total seen = 0 max lag = 0
+
+monitor: Client 1 going to sleep, sent = 1
+monitor: Client 2 going to sleep, sent = 1
+
+15:55:24.679 [error] Process #PID<16476.137.0> on node :"client1_00_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+
+15:55:24.680 [error] Process #PID<16477.137.0> on node :"client2_00_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+monitor: Client 3 going to sleep, sent = 1
+
+15:55:24.689 [error] Process #PID<16478.137.0> on node :"client3_00_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+monitor: Client 4 going to sleep, sent = 1
+
+15:55:24.697 [error] Process #PID<16479.137.0> on node :"client4_00_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+time = 5600      db updates done = []
+time = 5600 client requests seen = []
+time = 5600           total seen = 0 max lag = 0
+
+monitor: Client 5 going to sleep, sent = 1
+
+15:55:24.705 [error] Process #PID<16480.137.0> on node :"client5_00_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+monitor: Client 6 going to sleep, sent = 1
+
+15:55:24.713 [error] Process #PID<16483.137.0> on node :"client6_00_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+monitor: Client 7 going to sleep, sent = 1
+
+15:55:24.722 [error] Process #PID<16484.137.0> on node :"client7_00_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+monitor: Client 8 going to sleep, sent = 1
+
+15:55:24.729 [error] Process #PID<16485.137.0> on node :"client8_00_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+monitor: Client 9 going to sleep, sent = 1
+
+15:55:24.737 [error] Process #PID<16486.137.0> on node :"client9_00_mikiivanovic@127.0.0.1" raised an exception
+** (MatchError) no match of right hand side value: :ok
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:62: Client.send_request/2
+    (raft1 0.1.0) lib/client.ex:41: Client.next/1
+time = 5800      db updates done = []
+time = 5800 client requests seen = []
+time = 5800           total seen = 0 max lag = 0
+
+time = 6000      db updates done = []
+time = 6000 client requests seen = []
+time = 6000           total seen = 0 max lag = 0
+
+time = 6200      db updates done = []
+time = 6200 client requests seen = []
+time = 6200           total seen = 0 max lag = 0
+
+time = 6400      db updates done = []
+time = 6400 client requests seen = []
+time = 6400           total seen = 0 max lag = 0
+
+time = 6600      db updates done = []
+time = 6600 client requests seen = []
+time = 6600           total seen = 0 max lag = 0
+
+time = 6800      db updates done = []
+time = 6800 client requests seen = []
+time = 6800           total seen = 0 max lag = 0
+
+time = 7000      db updates done = []
+time = 7000 client requests seen = []
+time = 7000           total seen = 0 max lag = 0
+
+time = 7200      db updates done = []
+time = 7200 client requests seen = []
+time = 7200           total seen = 0 max lag = 0
+
+time = 7400      db updates done = []
+time = 7400 client requests seen = []
+time = 7400           total seen = 0 max lag = 0
+
+time = 7600      db updates done = []
+time = 7600 client requests seen = []
+time = 7600           total seen = 0 max lag = 0
+
+time = 7800      db updates done = []
+time = 7800 client requests seen = []
+time = 7800           total seen = 0 max lag = 0
+
+time = 8000      db updates done = []
+time = 8000 client requests seen = []
+time = 8000           total seen = 0 max lag = 0
+
+time = 8200      db updates done = []
+time = 8200 client requests seen = []
+time = 8200           total seen = 0 max lag = 0
+
+time = 8400      db updates done = []
+time = 8400 client requests seen = []
+time = 8400           total seen = 0 max lag = 0

@@ -1,0 +1,292 @@
+mix compile
+Compiling 1 file (.ex)
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+server 1 Client 1 at 146.169.53.164
+server 2 Client 2 at 146.169.53.164
+server 3 Client 3 at 146.169.53.164
+server 4 Client 4 at 146.169.53.164
+server 5 Client 5 at 146.169.53.164
+time = 200      db updates done = []
+time = 200 client requests seen = []
+time = 200           total seen = 0 max lag = 0
+
+time = 400      db updates done = []
+time = 400 client requests seen = []
+time = 400           total seen = 0 max lag = 0
+
+monitor: Client 2 going to sleep, sent = 1
+time = 600      db updates done = [{1, 5}, {2, 4}, {3, 5}, {4, 5}, {5, 5}]
+time = 600 client requests seen = [{2, 5}]
+time = 600           total seen = 5 max lag = 1
+
+time = 800      db updates done = [{1, 33}, {2, 33}, {3, 33}, {4, 33}, {5, 33}]
+time = 800 client requests seen = [{2, 33}]
+time = 800           total seen = 33 max lag = 0
+
+time = 1000      db updates done = [{1, 66}, {2, 66}, {3, 66}, {4, 66}, {5, 66}]
+time = 1000 client requests seen = [{2, 66}]
+time = 1000           total seen = 66 max lag = 0
+
+time = 1200      db updates done = [{1, 99}, {2, 99}, {3, 99}, {4, 99}, {5, 99}]
+time = 1200 client requests seen = [{2, 99}]
+time = 1200           total seen = 99 max lag = 0
+
+time = 1400      db updates done = [{1, 133}, {2, 133}, {3, 133}, {4, 133}, {5, 133}]
+time = 1400 client requests seen = [{2, 133}]
+time = 1400           total seen = 133 max lag = 0
+
+monitor: Client 1 going to sleep, sent = 1
+monitor: Client 3 going to sleep, sent = 1
+time = 1600      db updates done = [{1, 183}, {2, 183}, {3, 183}, {4, 183}, {5, 183}]
+time = 1600 client requests seen = [{2, 183}]
+time = 1600           total seen = 183 max lag = 0
+
+time = 1800      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
+time = 1800 client requests seen = [{2, 250}]
+time = 1800           total seen = 250 max lag = 0
+
+time = 2000      db updates done = [{1, 317}, {2, 317}, {3, 317}, {4, 317}, {5, 317}]
+time = 2000 client requests seen = [{2, 317}]
+time = 2000           total seen = 317 max lag = 0
+
+monitor: Client 4 going to sleep, sent = 1
+time = 2200      db updates done = [{1, 411}, {2, 411}, {3, 411}, {4, 411}, {5, 411}]
+time = 2200 client requests seen = [{2, 411}]
+time = 2200           total seen = 411 max lag = 0
+
+time = 2400      db updates done = [{1, 511}, {2, 511}, {3, 511}, {4, 511}, {5, 511}]
+time = 2400 client requests seen = [{2, 511}]
+time = 2400           total seen = 511 max lag = 0
+
+time = 2600      db updates done = [{1, 587}, {2, 587}, {3, 587}, {4, 587}, {5, 587}]
+time = 2600 client requests seen = [{2, 587}]
+time = 2600           total seen = 587 max lag = 0
+
+time = 2800      db updates done = [{1, 620}, {2, 620}, {3, 620}, {4, 620}, {5, 620}]
+time = 2800 client requests seen = [{2, 620}]
+time = 2800           total seen = 620 max lag = 0
+
+time = 3000      db updates done = [{1, 654}, {2, 654}, {3, 654}, {4, 654}, {5, 654}]
+time = 3000 client requests seen = [{2, 654}]
+time = 3000           total seen = 654 max lag = 0
+
+time = 3200      db updates done = [{1, 660}, {2, 660}, {3, 660}, {4, 660}, {5, 660}]
+time = 3200 client requests seen = [{2, 660}]
+time = 3200           total seen = 660 max lag = 0
+
+time = 3400      db updates done = [{1, 660}, {2, 660}, {3, 660}, {4, 660}, {5, 660}]
+time = 3400 client requests seen = [{2, 660}]
+time = 3400           total seen = 660 max lag = 0
+
+Exiting server5_30_mi3917@127.0.0.1
+monitor: Client 5 going to sleep, sent = 1
+time = 3600      db updates done = [{1, 666}, {2, 665}, {3, 666}, {4, 666}, {5, 666}]
+time = 3600 client requests seen = [{2, 666}]
+time = 3600           total seen = 666 max lag = 1
+
+Exiting server1_30_mi3917@127.0.0.1
+Exiting server4_30_mi3917@127.0.0.1
+Exiting server2_30_mi3917@127.0.0.1
+Exiting server3_30_mi3917@127.0.0.1
+Exiting client5_30_mi3917@127.0.0.1
+time = 3800      db updates done = [{1, 697}, {2, 697}, {3, 697}, {4, 697}, {5, 697}]
+time = 3800 client requests seen = [{2, 697}]
+time = 3800           total seen = 697 max lag = 0
+
+time = 4000      db updates done = [{1, 731}, {2, 731}, {3, 731}, {4, 731}, {5, 731}]
+time = 4000 client requests seen = [{2, 731}]
+time = 4000           total seen = 731 max lag = 0
+
+time = 4200      db updates done = [{1, 764}, {2, 764}, {3, 764}, {4, 764}, {5, 764}]
+time = 4200 client requests seen = [{2, 764}]
+time = 4200           total seen = 764 max lag = 0
+
+time = 4400      db updates done = [{1, 798}, {2, 798}, {3, 798}, {4, 798}, {5, 798}]
+time = 4400 client requests seen = [{2, 798}]
+time = 4400           total seen = 798 max lag = 0
+
+time = 4600      db updates done = [{1, 818}, {2, 818}, {3, 818}, {4, 818}, {5, 815}]
+time = 4600 client requests seen = [{2, 818}]
+time = 4600           total seen = 818 max lag = 3
+
+time = 4800      db updates done = [{1, 818}, {2, 818}, {3, 818}, {4, 818}, {5, 815}]
+time = 4800 client requests seen = [{2, 818}]
+time = 4800           total seen = 818 max lag = 3
+
+Exiting raft_30_mi3917@127.0.0.1
+time = 5000      db updates done = [{1, 818}, {2, 818}, {3, 818}, {4, 818}, {5, 815}]
+time = 5000 client requests seen = [{2, 818}]
+time = 5000           total seen = 818 max lag = 3
+
+time = 5200      db updates done = [{1, 818}, {2, 818}, {3, 818}, {4, 818}, {5, 815}]
+time = 5200 client requests seen = [{2, 818}]
+time = 5200           total seen = 818 max lag = 3
+
+time = 5400      db updates done = [{1, 818}, {2, 818}, {3, 818}, {4, 818}, {5, 815}]
+time = 5400 client requests seen = [{2, 818}]
+time = 5400           total seen = 818 max lag = 3
+
+time = 5600      db updates done = [{1, 818}, {2, 818}, {3, 818}, {4, 818}, {5, 815}]
+time = 5600 client requests seen = [{2, 818}]
+time = 5600           total seen = 818 max lag = 3
+
+time = 5800      db updates done = [{1, 818}, {2, 818}, {3, 818}, {4, 818}, {5, 815}]
+time = 5800 client requests seen = [{2, 818}]
+time = 5800           total seen = 818 max lag = 3
+
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+Raft at 146.169.53.164
+server 1 Client 1 at 146.169.53.164
+server 2 Client 2 at 146.169.53.164
+server 3 Client 3 at 146.169.53.164
+server 4 Client 4 at 146.169.53.164
+server 5 Client 5 at 146.169.53.164
+time = 200      db updates done = []
+time = 200 client requests seen = []
+time = 200           total seen = 0 max lag = 0
+
+time = 400      db updates done = []
+time = 400 client requests seen = []
+time = 400           total seen = 0 max lag = 0
+
+time = 600      db updates done = []
+time = 600 client requests seen = []
+time = 600           total seen = 0 max lag = 0
+
+time = 800      db updates done = []
+time = 800 client requests seen = []
+time = 800           total seen = 0 max lag = 0
+
+time = 1000      db updates done = []
+time = 1000 client requests seen = []
+time = 1000           total seen = 0 max lag = 0
+
+monitor: Client 1 going to sleep, sent = 1
+monitor: Client 5 going to sleep, sent = 1
+time = 1200      db updates done = [{1, 42}, {2, 42}, {3, 42}, {4, 42}, {5, 42}]
+time = 1200 client requests seen = [{1, 42}]
+time = 1200           total seen = 42 max lag = 0
+
+time = 1400      db updates done = [{1, 109}, {2, 109}, {3, 109}, {4, 109}, {5, 109}]
+time = 1400 client requests seen = [{1, 110}]
+time = 1400           total seen = 110 max lag = 1
+
+time = 1600      db updates done = [{1, 177}, {2, 177}, {3, 177}, {4, 177}, {5, 177}]
+time = 1600 client requests seen = [{1, 177}]
+time = 1600           total seen = 177 max lag = 0
+
+time = 1800      db updates done = [{1, 243}, {2, 243}, {3, 243}, {4, 243}, {5, 243}]
+time = 1800 client requests seen = [{1, 243}]
+time = 1800           total seen = 243 max lag = 0
+
+time = 2000      db updates done = [{1, 311}, {2, 311}, {3, 311}, {4, 311}, {5, 311}]
+time = 2000 client requests seen = [{1, 311}]
+time = 2000           total seen = 311 max lag = 0
+
+time = 2200      db updates done = [{1, 331}, {2, 331}, {3, 331}, {4, 331}, {5, 331}]
+time = 2200 client requests seen = [{1, 331}]
+time = 2200           total seen = 331 max lag = 0
+
+time = 2400      db updates done = [{1, 331}, {2, 331}, {3, 331}, {4, 331}, {5, 331}]
+time = 2400 client requests seen = [{1, 331}]
+time = 2400           total seen = 331 max lag = 0
+
+time = 2600      db updates done = [{1, 331}, {2, 331}, {3, 331}, {4, 331}, {5, 331}]
+time = 2600 client requests seen = [{1, 331}]
+time = 2600           total seen = 331 max lag = 0
+
+time = 2800      db updates done = [{1, 331}, {2, 331}, {3, 331}, {4, 331}, {5, 331}]
+time = 2800 client requests seen = [{1, 331}]
+time = 2800           total seen = 331 max lag = 0
+
+time = 3000      db updates done = [{1, 331}, {2, 331}, {3, 331}, {4, 331}, {5, 331}]
+time = 3000 client requests seen = [{1, 331}]
+time = 3000           total seen = 331 max lag = 0
+
+monitor: Client 3 going to sleep, sent = 1
+monitor: Client 4 going to sleep, sent = 1
+time = 3200      db updates done = [{1, 374}, {2, 374}, {3, 374}, {4, 374}, {5, 374}]
+time = 3200 client requests seen = [{1, 331}, {4, 43}]
+time = 3200           total seen = 374 max lag = 0
+
+time = 3400      db updates done = [{1, 442}, {2, 441}, {3, 441}, {4, 441}, {5, 441}]
+time = 3400 client requests seen = [{1, 331}, {4, 111}]
+time = 3400           total seen = 442 max lag = 1
+
+time = 3600      db updates done = [{1, 508}, {2, 508}, {3, 508}, {4, 508}, {5, 508}]
+time = 3600 client requests seen = [{1, 331}, {4, 177}]
+time = 3600           total seen = 508 max lag = 0
+
+Exiting server4_30_mi3917@127.0.0.1
+Exiting server2_30_mi3917@127.0.0.1
+Exiting client2_30_mi3917@127.0.0.1
+Exiting server5_30_mi3917@127.0.0.1
+Exiting server1_30_mi3917@127.0.0.1
+Exiting server3_30_mi3917@127.0.0.1
+time = 3800      db updates done = [{1, 575}, {2, 575}, {3, 575}, {4, 575}, {5, 575}]
+time = 3800 client requests seen = [{1, 331}, {4, 244}]
+time = 3800           total seen = 575 max lag = 0
+
+Exiting client4_30_mi3917@127.0.0.1
+Exiting client3_30_mi3917@127.0.0.1
+time = 4000      db updates done = [{1, 642}, {2, 642}, {3, 642}, {4, 642}, {5, 642}]
+time = 4000 client requests seen = [{1, 331}, {4, 311}]
+time = 4000           total seen = 642 max lag = 0
+
+monitor: Client 2 going to sleep, sent = 1
+time = 4200      db updates done = [{1, 684}, {2, 684}, {3, 684}, {4, 684}, {5, 684}]
+time = 4200 client requests seen = [{1, 331}, {4, 353}]
+time = 4200           total seen = 684 max lag = 0
+
+time = 4400      db updates done = [{1, 717}, {2, 717}, {3, 717}, {4, 717}, {5, 717}]
+time = 4400 client requests seen = [{1, 331}, {4, 386}]
+time = 4400           total seen = 717 max lag = 0
+
+time = 4600      db updates done = [{1, 750}, {2, 750}, {3, 750}, {4, 750}, {5, 750}]
+time = 4600 client requests seen = [{1, 331}, {4, 419}]
+time = 4600           total seen = 750 max lag = 0
+
+time = 4800      db updates done = [{1, 755}, {2, 755}, {3, 755}, {4, 755}, {5, 755}]
+time = 4800 client requests seen = [{1, 331}, {4, 424}]
+time = 4800           total seen = 755 max lag = 0
+
+Exiting raft_30_mi3917@127.0.0.1
+time = 5000      db updates done = [{1, 755}, {2, 755}, {3, 755}, {4, 755}, {5, 755}]
+time = 5000 client requests seen = [{1, 331}, {4, 424}]
+time = 5000           total seen = 755 max lag = 0
+
+time = 5200      db updates done = [{1, 755}, {2, 755}, {3, 755}, {4, 755}, {5, 755}]
+time = 5200 client requests seen = [{1, 331}, {4, 424}]
+time = 5200           total seen = 755 max lag = 0
+
+time = 5400      db updates done = [{1, 755}, {2, 755}, {3, 755}, {4, 755}, {5, 755}]
+time = 5400 client requests seen = [{1, 331}, {4, 424}]
+time = 5400           total seen = 755 max lag = 0
+
+time = 5600      db updates done = [{1, 755}, {2, 755}, {3, 755}, {4, 755}, {5, 755}]
+time = 5600 client requests seen = [{1, 331}, {4, 424}]
+time = 5600           total seen = 755 max lag = 0
+
+time = 5800      db updates done = [{1, 755}, {2, 755}, {3, 755}, {4, 755}, {5, 755}]
+time = 5800 client requests seen = [{1, 331}, {4, 424}]
+time = 5800           total seen = 755 max lag = 0
+

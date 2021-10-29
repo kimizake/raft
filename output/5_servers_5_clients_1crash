@@ -1,0 +1,23 @@
+mix compile
+Compiling 1 file (.ex)
+Raft at 192.168.0.30
+Raft at 192.168.0.30
+Raft at 192.168.0.30
+Raft at 192.168.0.30
+Raft at 192.168.0.30
+Raft at 192.168.0.30
+Raft at 192.168.0.30
+Raft at 192.168.0.30
+Raft at 192.168.0.30
+Raft at 192.168.0.30
+Raft at 192.168.0.30
+Exiting server5_34_mikiivanovic@127.0.0.1
+Exiting server3_34_mikiivanovic@127.0.0.1
+Exiting client5_34_mikiivanovic@127.0.0.1
+Exiting server1_34_mikiivanovic@127.0.0.1
+Exiting client4_34_mikiivanovic@127.0.0.1
+Exiting server2_34_mikiivanovic@127.0.0.1
+Exiting server4_34_mikiivanovic@127.0.0.1
+Exiting client2_34_mikiivanovic@127.0.0.1
+Exiting client3_34_mikiivanovic@127.0.0.1
+Exiting client1_34_mikiivanovic@127.0.0.1
